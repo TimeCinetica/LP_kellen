@@ -4,19 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="Header">
-        <a href="#">INÍCIO</a>
-        <a href="#">QUEM SOMOS</a>
-        <a href="#">TREINAMENTOS</a>
-        <img src="" alt="logo">
-        <a href="#">DIFERENCIAIS</a>
-        <a href="#">FEEDBACKS</a>
+        <div class="Header1">
+            <a href="#Inicio-container" class="Header-link">INÍCIO</a>
+            <a href="#QuemSomos-container" class="Header-link">QUEM SOMOS</a>
+            <a href="#Treinamentos-container" class="Header-link">TREINAMENTOS</a>
+        </div>
+        <img src="/images/logo kellen referencia 1.png" alt="logo" class="Header-logo">
+        <div class="Header2">
+            <a href="#Diferenciais-container" class="Header-link">DIFERENCIAIS</a>
+            <a href="#OQue-Dizem-container" class="Header-link">FEEDBACKS</a>
+        </div>
     </header>
-    <div class="Inicio-container">
+    <div id="Inicio-container" class="Inicio-container">
         <div class="Inicio-content">
-
+            
             <div class="Inicio-titulo">
                 Maximize habilidades e 
                 competências comportamentais 
@@ -36,7 +44,7 @@
             <img src="" alt="">
         </div>
     </div>
-    <div class="QuemSomos-container">
+    <div id="QuemSomos-container" class="QuemSomos-container">
         <div class="QuemSomos-cards">
             <div class="card1">
                 <h1 class="card-title">4+</h1>
@@ -100,7 +108,7 @@
             </div>
         </div>
     </div>
-    <div class="Diferenciais-container">
+    <div id="Diferenciais-container" class="Diferenciais-container">
         <div class="treinadora-cards">
             <img src="" alt="">
             Metas batidas e aumento de lucratividade
@@ -123,7 +131,7 @@
             independentes
         </div>
     </div>
-    <div class="Treinamentos-container">
+    <div id="Treinamentos-container" class="Treinamentos-container">
         <div class="Treinamentos-content">
             <h1 class="Treinamentos-title">Nossas Soluções...</h1>
             <p class="Treinamentos-text">
@@ -166,7 +174,7 @@
             </div>
         </div>
     </div>
-    <div class="OQue-Dizem-container">
+    <div id="OQue-Dizem-container" class="OQue-Dizem-container">
         <h1 class="OQue-Dizem-title">O QUE <span class="texto-marrom">DIZEM</span> NOSSOS CLIENTES</h1>
         <div class="feedbacks-carrousel"></div>
         <div class="empresas-carrousel"></div>
@@ -215,5 +223,6 @@
             </div>
         </section>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

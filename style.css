@@ -1,0 +1,43 @@
+body {
+    background-color: #6F5440;
+    font-family: "Outfit", sans-serif;
+    color: #ffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-top: 36px;
+    position: fixed;
+}
+
+.Header1 {
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+.Header2 {
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+}
+
+.Header-logo {
+    width: 232px;
+}
+
+.Header-link {
+    color: #ffff;
+}
+
+.active {
+    border-bottom: 2px solid #C09F80;
+}
