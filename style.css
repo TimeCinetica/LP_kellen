@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #6F5440;
     font-family: "Outfit", sans-serif;
@@ -21,13 +25,13 @@ a {
 .Header1 {
     display: flex;
     justify-content: space-around;
-    width: 40vw;
+    width: 44vw;
 }
 
 .Header2 {
     display: flex;
     justify-content: space-around;
-    width: 40vw;
+    width: 38vw;
 }
 
 .Header-logo {
@@ -40,4 +44,52 @@ a {
 
 .active {
     border-bottom: 2px solid #C09F80;
+}
+
+.active::after {
+    transition: .7s;
+}
+
+/* INICIO */
+
+.Inicio-container {
+    padding-top: 28vh;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Inicio-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+
+.Inicio-titulo {
+    color: #E4D4B3;
+    font-size: 40px;
+    max-width: 42vw;
+}
+
+.Inicio-desc {
+    border-left: 2px solid #C09F80;
+    font-size: 30px;
+    font-weight: 300;
+    max-width: 34vw;
+    padding-left: 1vw;
+}
+
+.Inicio-contatenos {
+    background-color: #C09F80;
+    opacity: 0.8;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffff;
+    width: 184px;
+    height: 68px;
+    font-size: 22px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
