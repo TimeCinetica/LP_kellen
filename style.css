@@ -2,8 +2,13 @@ html {
     scroll-behavior: smooth;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: #6F5440;
+    background-color: #121214;
     font-family: "Outfit", sans-serif;
     color: #ffff;
 }
@@ -53,10 +58,9 @@ a {
 /* INICIO */
 
 .Inicio-container {
-    padding-top: 28vh;
-    height: 100vh;
+    padding: 28vh 0 0 10vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
 }
 
 .Inicio-content {
@@ -92,4 +96,71 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Inicio-image {
+    position: absolute;
+    right: 10vw;
+}
+
+/* QUEM SOMOS */
+
+.QuemSomos-container {
+    padding-top: 16vh;
+}
+
+.QuemSomos-cards {
+    display: flex;
+    gap: 4vw;
+    padding-left: 8vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    background-color: #6F5440;
+    width: 200px;
+    height: 180px;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.card-content {
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    font-size: 24px;
+}
+
+.QuemSomos-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 16vh;
+    gap: 2vw;
+    font-weight: 600;
+}
+
+.QuemSomos {
+    width: 38vw;
+    text-align: right;
+}
+
+.QuemSomos-title {
+    color: #6F5440;
+    font-size: 36px;
+}
+
+.QuemSomos-info {
+    font-size: 26px;
+    padding-top: 2vh;
+}
+
+.OqueFazemos {
+    width: 38vw;
 }

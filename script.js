@@ -1,10 +1,15 @@
 const headerLinks = document.getElementsByClassName("Header-link");
+const nLinks = headerLinks.length;
 
 document.querySelectorAll('.Header-link').forEach((elemento) => {
     elemento.addEventListener('click', () => {
-        for (let i = 0; i < headerLinks.length; i++) {
-            headerLinks[i].classList.remove('active');
-        }
+        removeClassActive();
         elemento.classList.add('active');
     });
 });
+
+function removeClassActive () {
+    for (let i = 0; i < nLinks; i++) {
+        headerLinks[i].classList.remove('active');
+    }
+}
