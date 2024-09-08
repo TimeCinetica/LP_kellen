@@ -17,6 +17,16 @@ a {
     text-decoration: none;
 }
 
+.background-image {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 /* HEADER */
 .Header {
     display: flex;
@@ -25,6 +35,7 @@ a {
     font-size: 24px;
     margin-top: 36px;
     position: fixed;
+    z-index: 999999999;
 }
 
 .Header1 {
@@ -106,7 +117,18 @@ a {
 /* QUEM SOMOS */
 
 .QuemSomos-container {
-    padding-top: 16vh;
+    margin-top: 16vh;
+    padding: 6vh 0 12vh 0;
+    background-color: #C09F80;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+    z-index: -2;
+}
+
+.QuemSomos-background {
+    background-image: url('./images/quemsomosbg.png');
+    z-index: -1;
+    border-radius: 40px 40px 0px 0px;
 }
 
 .QuemSomos-cards {
@@ -163,4 +185,73 @@ a {
 
 .OqueFazemos {
     width: 38vw;
+}
+
+/* SOBRE A TREINADORA */
+
+.Sobre-Treinadora-container {
+    border-radius: 40px 40px 0px 0px;
+    background-color: #6f5440;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4vw;
+    margin-top: -6vh;
+    z-index: -2;
+}
+
+.kellen-lateral {
+    position: absolute;
+    height: 95%;
+    bottom: 0;
+    left: 0;
+}
+
+.treinadora-title {
+    font-size: 80px;
+    font-weight: 700;
+    color: #E4D4B3;
+    font-family: "PT Serif", serif;
+}
+
+.treinadora-content {
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 70vw;
+    align-self: center;
+    padding: 5vh 0;
+}
+
+.treinadora-card {
+    background-color: #E4D4B3;
+    align-self: center;
+    display: flex;
+    gap: 4vw;
+    border-radius: 40px;
+    padding: 16px;
+}
+
+.treinadora-card-sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #6F5440;
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 16vw;
+}
+
+.treinadora-card-sections img {
+    width: 48px;   
+}
+
+.Sobre-Treinadora-background {
+    background-image: url('./images/sobrevendedorabg.png');
+    opacity: 40%;
+    border-radius: 40px 40px 0px 0px;
+    z-index: -1;
 }
