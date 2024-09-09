@@ -260,8 +260,9 @@ a {
 
 .Diferenciais-container {
     position: relative;
+    border-radius: 40px 40px 0px 0px;
     margin-top: -6vh;
-    padding: 6vh 4vw;
+    padding: 8vh 4vw;
     height: 40vh;
     background-color: #C09F80;
     z-index: -2;
@@ -306,13 +307,14 @@ a {
 
 .Treinamentos-container {
     position: relative;
+    border-radius: 40px 40px 0px 0px;
     margin-top: -6vh;
     padding: 6vh 4vw;
-    height: 40vh;
     background-color: #C09F80;
     z-index: -2;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     gap: 4vw;
 }
 
@@ -333,6 +335,46 @@ a {
     font-weight: 400;
     max-width: 35.5vw;
 }
+
+.Treinamentos-button {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: #6F5440;
+    border-radius: 40px;
+    padding: 2vh 0;
+    max-width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Treinamentos-button span{
+    max-height: 48px;
+}
+
+.Treinamentos-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8vh;
+    width: 40vw;
+}
+
+.Treinamentos-card {
+    background-color: #C09F80;
+    color: #6F5440;
+    height: 248px;
+    width: 330px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+
 
 .Treinamentos-background {
     background-image: url('./images/treinamentobg.png');
