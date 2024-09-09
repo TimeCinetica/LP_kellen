@@ -255,3 +255,88 @@ a {
     border-radius: 40px 40px 0px 0px;
     z-index: -1;
 }
+
+/* DIFERENCIAIS */
+
+.Diferenciais-container {
+    position: relative;
+    margin-top: -6vh;
+    padding: 6vh 4vw;
+    height: 40vh;
+    background-color: #C09F80;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.treinadora-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+}
+
+.treinadora-cards-elipse {
+    background-color: #725742;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.treinadora-cards-content {
+    width: 18vw;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.Diferenciais-background {
+    background-image: url('./images/diferenciaisbg.png');
+    opacity: 50%;
+    border-radius: 40px 40px 0px 0px;
+    z-index: -1;
+}
+
+/* TREINAMENTO */
+
+.Treinamentos-container {
+    position: relative;
+    margin-top: -6vh;
+    padding: 6vh 4vw;
+    height: 40vh;
+    background-color: #C09F80;
+    z-index: -2;
+    display: flex;
+    justify-content: center;
+    gap: 4vw;
+}
+
+.Treinamentos-content {
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.Treinamentos-title {
+    color: #725742;
+    font-weight: 700;
+    font-size: 58px;
+}
+
+.Treinamentos-text {
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 35.5vw;
+}
+
+.Treinamentos-background {
+    background-image: url('./images/treinamentobg.png');
+    opacity: 50%;
+    border-radius: 40px 40px 0px 0px;
+    z-index: -1;
+}
