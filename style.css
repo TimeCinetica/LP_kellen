@@ -309,7 +309,7 @@ a {
     position: relative;
     border-radius: 40px 40px 0px 0px;
     margin-top: -6vh;
-    padding: 6vh 4vw;
+    padding: 12vh 4vw;
     background-color: #C09F80;
     z-index: -2;
     display: flex;
@@ -349,7 +349,6 @@ a {
     justify-content: center;
 }
 
-
 .Treinamentos-button span{
     max-height: 48px;
 }
@@ -381,4 +380,112 @@ a {
     opacity: 50%;
     border-radius: 40px 40px 0px 0px;
     z-index: -1;
+}
+
+/* O QUE DIZEM */
+
+.OQue-Dizem-container {
+    position: relative;
+    border-radius: 40px 40px 0px 0px;
+    margin-top: -6vh;
+    padding: 6vh 4vw;
+    background-color: #C09F80;
+    z-index: -2;
+    gap: 4vw;
+}
+
+.OQue-Dizem-title {
+    font-size: 80px;
+    font-family: "PT Serif", serif;
+    color: #E4D4B3;
+}
+
+.texto-marrom {
+    color: #6F5440;
+}
+
+.feedbacks-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    margin: 4vh 14vw;
+}
+
+.feedbacks-container {
+    border: 1px solid #F6F4F1;
+    border-radius: 20px;
+    background-color: #F6F4F133;
+    padding: 6vh 2vw;
+    margin: 0 2vw;
+}
+
+.OQueDizem-content {
+    color: #6F5440;
+    font-size: 30px;
+    padding: 4vh 0 2vh 0;
+}
+
+.OQueDizem-pessoa {
+    padding: 0 12px;
+}
+
+.Nome {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.Funcao {
+    font-weight: 600;
+    font-size: 30px;
+    color: #6F5440;
+}
+
+.OQueDizem-background {
+    background-image: url('./images/oquedizembg.png');
+    opacity: 50%;
+    border-radius: 40px 40px 0px 0px;
+    z-index: -1;
+}
+
+/* carousel */
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+}
+  
+.carousel-item.active {
+    display: block;
+}
+  
+.carousel-prev,.carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  
+.carousel-prev {
+    background: none;
+    border: none;
+    left: 16vw;
+}
+
+.carousel-arrow {
+    width: 4vw;
+}
+  
+.carousel-next {
+    background: none;
+    border: none;
+    right: 16vw;
 }
