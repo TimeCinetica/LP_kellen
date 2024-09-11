@@ -81,7 +81,6 @@
                 </p>
             </div>
         </div>
-        <div class="QuemSomos-background background-image"></div>
     </div>
     <div class="Sobre-Treinadora-container">
         <img class="kellen-lateral" src="./images/kellen-lateral.svg" alt="kellen">
@@ -109,7 +108,6 @@
                 Escritora de artigos e e-book
             </div>
         </div>
-        <div class="Sobre-Treinadora-background background-image"></div>
     </div>
     <div id="Diferenciais-container" class="Diferenciais-container">
         <div class="treinadora-cards">
@@ -198,10 +196,9 @@
     </div>
     <div id="OQue-Dizem-container" class="OQue-Dizem-container">
         <h1 class="OQue-Dizem-title">O QUE <span class="texto-marrom">DIZEM</span> NOSSOS CLIENTES</h1>
-        <div class="feedbacks-carousel">
-            <div class="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item">
+            <div class="feedbacks-carousel">
+                <div class="feedbacks-carousel-inner">
+                    <div class="feedbacks-carousel-item">
                         <div class="feedbacks-container">
                             <img src="/images/“.png" alt="aspas">
                             <p class="OQueDizem-content">
@@ -220,7 +217,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
+                    <div class="feedbacks-carousel-item">
                         <div class="feedbacks-container">
                             <img src="/images/“.png" alt="aspas">
                             <p class="OQueDizem-content">
@@ -233,12 +230,32 @@
                         </div>
                     </div>
                 </div>
+                <a id="feedbacks-carousel-prev" class="feedbacks-carousel-prev"><img src="/images/prev-arrow.svg" alt="prev"></a>
+                <a id="feedbacks-carousel-next" class="feedbacks-carousel-next"><img src="/images/next-arrow.svg" alt="next"></a>
             </div>
-            <button class="carousel-prev"><img src="/images/prev-arrow.svg" alt="prev"></button>
-            <button class="carousel-next"><img src="/images/next-arrow.svg" alt="next"></button>
+        <!--<div class="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item">Item 1</div>
+            <div class="carousel-item">Item 2</div>
+            <div class="carousel-item">Item 3</div>
+            </div>
+            <button id="carousel-prev">Prev</button>
+            <button id="carousel-next">Next</button>
+        </div>-->
+        <div class="empresas-container">
+            <div class="empresas-carousel">
+                <div class="empresas-carousel-inner">
+                    <div class="empresas-carousel-item">
+                        aaaaaaaaaaaa
+                    </div>
+                    <div class="empresas-carousel-item">
+                        baaaaaaaaaa
+                    </div>
+                </div>
+                <a id="empresas-carousel-prev" class="empresas-carousel-prev"><img src="/images/prev-arrow.svg" alt="prev"></a>
+                <a id="empresas-carousel-next" class="empresas-carousel-next"><img src="/images/next-arrow.svg" alt="next"></a>
+            </div>
         </div>
-        <div class="empresas-carousel"></div>
-        <div class="OQueDizem-background background-image"></div>
     </div>
     <footer class="Footer">
         <section class="Footer-faleconosco">
@@ -284,6 +301,8 @@
             </div>
         </section>
     </footer>
-    <script src="/script.js"></script>
+    <script src="/scripts/header.js"></script>
+    <script src="/scripts/feedbacks-carousel.js"></script>
+    <script src="/scripts/empresas-carousel.js"></script>
 </body>
 </html>
