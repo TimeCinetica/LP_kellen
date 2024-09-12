@@ -118,7 +118,6 @@ a {
     background-color: #C09F80;
     background-image: url('./images/quemsomosbg.png');
     border-radius: 40px 40px 0px 0px;
-    border-radius: 40px 40px 0px 0px;
 }
 
 .QuemSomos-cards {
@@ -296,12 +295,13 @@ a {
     border-radius: 40px 40px 0px 0px;
     margin-top: -6vh;
     padding: 12vh 4vw;
-    background-color: #C09F80;
-    z-index: -2;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 4vw;
+    background-color: #C09F80;
+    background-image: url('./images/treinamentobg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Treinamentos-content {
@@ -359,20 +359,11 @@ a {
     text-align: center;
     font-weight: 700;
 }
-
-
-.Treinamentos-background {
-    background-image: url('./images/treinamentobg.png');
-    opacity: 50%;
-    border-radius: 40px 40px 0px 0px;
-    z-index: -1;
-}
-
 /* O QUE DIZEM */
 
 .OQue-Dizem-container {
+    position: relative;
     border-radius: 40px 40px 0px 0px;
-    margin-top: -6vh;
     padding: 6vh 4vw;
     gap: 4vw;
     background-color: #C09F80;
@@ -380,6 +371,8 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 40px 40px 0px 0px;
+    margin-top: -6vh;
+    height: 100vh;
 }
 
 .OQue-Dizem-title {
@@ -398,6 +391,7 @@ a {
     background-color: #F6F4F133;
     padding: 6vh 2vw;
     margin: 0 2vw;
+    height: 48vh;
 }
 
 .OQueDizem-content {
@@ -489,6 +483,12 @@ a {
   
 .empresas-carousel-item {
     display: none; /* Ocultar os itens do carrossel */
+    width: 85%;
+}
+
+.empresas-carousel-item-div {
+    display: flex;
+    justify-content: space-between;
 }
   
 .empresas-carousel-item.empresas-carousel-active {
@@ -509,4 +509,13 @@ a {
   
 #empresas-carousel-next {
     right: 2vw;
+}
+
+/* FOOTER */
+
+.Footer {
+    position: relative;
+    background-color: #E4D4B3;
+    border-radius: 40px 40px 0px 0px;
+    margin-top: -6vh;
 }
