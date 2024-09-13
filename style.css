@@ -31,7 +31,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 24px;
+    font-size: 1.25vw;
     margin-top: 36px;
     position: fixed;
     z-index: 1;
@@ -50,7 +50,7 @@ a {
 }
 
 .Header-logo {
-    width: 232px;
+    width: 12vw;
 }
 
 .Header-link {
@@ -67,6 +67,8 @@ a {
     padding: 28vh 0 0 10vw;
     display: flex;
     justify-content: start;
+    background-color: #121214;
+    height: 80vh;
 }
 
 .Inicio-content {
@@ -77,13 +79,13 @@ a {
 
 .Inicio-titulo {
     color: #E4D4B3;
-    font-size: 40px;
+    font-size: 2vw;
     max-width: 42vw;
 }
 
 .Inicio-desc {
     border-left: 2px solid #C09F80;
-    font-size: 30px;
+    font-size: 1.5625vw;
     font-weight: 300;
     max-width: 34vw;
     padding-left: 1vw;
@@ -95,9 +97,9 @@ a {
     border-radius: 5px;
     text-decoration: none;
     color: #ffff;
-    width: 184px;
-    height: 68px;
-    font-size: 22px;
+    width: 9.58vw;
+    height:  3.5vw;
+    font-size: 1.15vw;
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -108,13 +110,18 @@ a {
     position: absolute;
     right: 10vw;
     z-index: 1;
+    
+}
+
+.Inicio-image img {
+    width: 33.5vw;
 }
 
 /* QUEM SOMOS */
 
 .QuemSomos-container {
-    margin-top: 16vh;
     padding: 6vh 0 12vh 0;
+    margin-top: -16vh;
     background-color: #C09F80;
     background-image: url('./images/quemsomosbg.png');
     border-radius: 40px 40px 0px 0px;
@@ -133,20 +140,20 @@ a {
     align-items: center;
     border-radius: 40px;
     background-color: #6F5440;
-    width: 200px;
-    height: 180px;
+    width: 10.4vw;
+    height: 9.375vw;
 }
 
 .card-title {
     font-weight: 800;
-    font-size: 48px;
+    font-size: 2.5vw;
 }
 
 .card-content {
     font-weight: 400;
     text-align: center;
     width: 80%;
-    font-size: 24px;
+    font-size: 1.25vw;
 }
 
 .QuemSomos-content {
@@ -164,11 +171,11 @@ a {
 
 .QuemSomos-title {
     color: #6F5440;
-    font-size: 36px;
+    font-size: 1.875vw;
 }
 
 .QuemSomos-info {
-    font-size: 26px;
+    font-size: 1.35vw;
     padding-top: 2vh;
 }
 
@@ -372,7 +379,6 @@ a {
     background-size: cover;
     border-radius: 40px 40px 0px 0px;
     margin-top: -6vh;
-    height: 100vh;
 }
 
 .OQue-Dizem-title {
@@ -466,9 +472,9 @@ a {
     align-items: center;
     justify-content: center;   
     position: relative;
-    height: 12vh;
     background-color: #6F5440;
     border-radius: 40px;
+    height: 20vh;
 }
 
 .empresas-carousel-inner {
@@ -489,7 +495,14 @@ a {
 .empresas-carousel-item-div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.empresas-carousel-item-div img{
+    max-width: 16vw;
+    max-height: 14vh;
+}
+
   
 .empresas-carousel-item.empresas-carousel-active {
     display: block; /* Mostrar o item do carrossel atual */
@@ -517,5 +530,72 @@ a {
     position: relative;
     background-color: #E4D4B3;
     border-radius: 40px 40px 0px 0px;
-    margin-top: -6vh;
+    margin-top: -4vh;
+}
+
+.Footer-faleconosco {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 4vh 2vw;
+}
+
+.faleconosco-title {
+    color: #6F5440;
+    font-family: "PT Serif", serif;
+    font-size: 80px;
+}
+
+.faleconosco-button {
+    background-color: #6F5440;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 82px;
+    width: 300px;
+    color: #ffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ffff;
+    padding: 4vh 2vw;
+    font-size: 28px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.footer-img {
+    width: 180px;
+}
+
+.footer-section-text {
+    font-weight: 400;
+    font-size: 28px;
+    color: #C09F80;
+    max-width: 42vw;
+}
+
+.footer-social-medias  {
+    margin-top: 8vh;
+    display: flex;
+    gap: 1vw;
+}
+
+.footer-section-title {
+    color: #6F5440;
+    font-size: 28px;
+}
+
+.footer-section-link {
+    color: #C09F80;
+    font-size: 28px;
 }
