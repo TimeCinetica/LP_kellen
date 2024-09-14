@@ -197,26 +197,26 @@ a {
     background-image: url('./images/sobrevendedorabg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 40px 40px 0px 0px;
     position: relative;
 }
 
 .kellen-lateral {
     position: absolute;
-    height: 95%;
+    width: 15vw;
+    height: 90%;
     bottom: 0;
     left: 0;
 }
 
 .treinadora-title {
-    font-size: 80px;
+    font-size: 4vw;
     font-weight: 700;
     color: #E4D4B3;
     font-family: "PT Serif", serif;
 }
 
 .treinadora-content {
-    font-size: 36px;
+    font-size: 1.875vw;
     font-weight: 400;
     max-width: 70vw;
     align-self: center;
@@ -240,12 +240,12 @@ a {
     text-align: center;
     color: #6F5440;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.25vw;
     max-width: 16vw;
 }
 
 .treinadora-card-sections img {
-    width: 48px;  
+    width: 2.5vw;  
 }
 
 /* DIFERENCIAIS */
@@ -274,17 +274,21 @@ a {
 .treinadora-cards-elipse {
     background-color: #725742;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 10.4vw;
+    height: 10.4vw;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.card-image {
+    width: 5vw;
+}
+
 .treinadora-cards-content {
     width: 18vw;
     text-align: center;
-    font-size: 28px;
+    font-size: 1.45vw;
     font-weight: 400;
 }
 
@@ -320,11 +324,11 @@ a {
 .Treinamentos-title {
     color: #725742;
     font-weight: 700;
-    font-size: 58px;
+    font-size: 3vw;
 }
 
 .Treinamentos-text {
-    font-size: 30px;
+    font-size: 1.5625vw;
     font-weight: 400;
     max-width: 35.5vw;
 }
@@ -332,7 +336,7 @@ a {
 .Treinamentos-button {
     color: #ffff;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.5625vw;
     background-color: #6F5440;
     border-radius: 40px;
     padding: 2vh 0;
@@ -343,7 +347,11 @@ a {
 }
 
 .Treinamentos-button span{
-    max-height: 48px;
+    max-height: 5vh;
+}
+
+.treinamentos-button-arrow {
+    width: 2.5vw;
 }
 
 .Treinamentos-cards {
@@ -356,9 +364,9 @@ a {
 .Treinamentos-card {
     background-color: #C09F80;
     color: #6F5440;
-    height: 248px;
-    width: 330px;
-    font-size: 36px;
+    height: 26vh;
+    width: 17.2vw;
+    font-size: 1.875vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,7 +390,7 @@ a {
 }
 
 .OQue-Dizem-title {
-    font-size: 80px;
+    font-size: 4vw;
     font-family: "PT Serif", serif;
     color: #E4D4B3;
 }
@@ -402,7 +410,7 @@ a {
 
 .OQueDizem-content {
     color: #6F5440;
-    font-size: 30px;
+    font-size: 1.5625vw;
     padding: 4vh 0 2vh 0;
 }
 
@@ -412,12 +420,12 @@ a {
 
 .Nome {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 1.875vw;
 }
 
 .Funcao {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 1.5625vw;
     color: #6F5440;
 }
 
@@ -543,7 +551,7 @@ a {
 .faleconosco-title {
     color: #6F5440;
     font-family: "PT Serif", serif;
-    font-size: 80px;
+    font-size: 4vw;
 }
 
 .faleconosco-button {
@@ -552,10 +560,10 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 82px;
-    width: 300px;
+    height: 4.27vw;
+    width: 15.625vw;
     color: #ffff;
-    font-size: 30px;
+    font-size: 1.5625vw;
     font-weight: 700;
 }
 
@@ -564,7 +572,7 @@ a {
     justify-content: space-between;
     border-top: 1px solid #ffff;
     padding: 4vh 2vw;
-    font-size: 28px;
+    font-size: 1.45vw;
 }
 
 .footer-section {
@@ -574,12 +582,12 @@ a {
 }
 
 .footer-img {
-    width: 180px;
+    width: 9.375vw;
 }
 
 .footer-section-text {
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.45vw;
     color: #C09F80;
     max-width: 42vw;
 }
@@ -592,10 +600,10 @@ a {
 
 .footer-section-title {
     color: #6F5440;
-    font-size: 28px;
+    font-size: 1.45vw;
 }
 
 .footer-section-link {
     color: #C09F80;
-    font-size: 28px;
+    font-size: 1.45vw;
 }
