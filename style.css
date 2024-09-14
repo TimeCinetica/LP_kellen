@@ -28,13 +28,16 @@ a {
 
 /* HEADER */
 .Header {
+    position: fixed;
+    z-index: 22222;
+    margin-top: 1.875vw;
+}
+
+.Header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 1.25vw;
-    margin-top: 36px;
-    position: fixed;
-    z-index: 1;
 }
 
 .Header1 {
@@ -47,6 +50,10 @@ a {
     display: flex;
     justify-content: space-around;
     width: 38vw;
+}
+
+.Header-logo-mobile {
+    display: none;
 }
 
 .Header-logo {

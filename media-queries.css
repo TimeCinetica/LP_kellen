@@ -1,0 +1,34 @@
+/* 768px */
+@media (max-width: 768px) {
+    /* HEADER */
+    .Header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0vh;
+    }
+
+    .Header-container {
+        font-size: 2.5vw;
+        padding: 0 4vw;
+    }
+
+    .Header1 {
+       width: 50vw;
+    }
+    
+    .Header2 {
+        width: 40vw;
+    }
+
+    .Header-logo {
+        display: none;
+    }
+
+    .Header-logo-mobile {
+        display: block;
+        width: 20vw;
+        margin: 2vh 0 2vh 0;
+    }
+}
