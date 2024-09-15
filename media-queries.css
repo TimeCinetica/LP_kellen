@@ -31,4 +31,176 @@
         width: 20vw;
         margin: 2vh 0 2vh 0;
     }
+
+
+    /* INICIO */
+
+    .Inicio-container {
+        padding: 20vh 0 0 10vw;
+        height: 60vh;
+    }
+
+    .Inicio-content {
+        gap: 4vh;
+    }
+
+    .Inicio-titulo {
+        font-size: 4vw;
+    }
+
+    .Inicio-desc {
+        font-size: 3vw;
+        max-width: 44vw;
+        padding-left: 2vw;
+    }
+
+    .Inicio-contatenos {
+        border-radius: 2px;
+        text-decoration: none;
+        color: #ffff;
+        width: 18vw;
+        height:  7vw;
+        font-size: 2vw;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Inicio-image {
+        right: -16vw;
+        top: 24vh;
+    }
+
+    .Inicio-image img {
+        width: 58vw;
+    }
+
+    /* QUEM SOMOS */
+
+    .QuemSomos-container {
+        padding: 2vh 0 12vh 0;
+        margin-top: -26vh;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .QuemSomos-cards {
+        display: flex;
+        gap: 4vw;
+        padding-left: 8vw;
+    }
+    
+    .card {
+        border-radius: 8px;
+        background-color: #6F5440;
+        width: 13.4vw;
+        height: 12.375vw;
+    }
+    
+    .card-title {
+        font-size: 3.5vw;
+    }
+
+    .card-content {
+        width: 80%;
+        font-size: 2vw;
+    }
+
+    .QuemSomos-content {
+        margin-top: 4vh;
+    }
+
+    .QuemSomos {
+        width: 48vw;
+    }
+
+    .OqueFazemos {
+        width: 48vw;
+    }
+
+    .QuemSomos-title {
+        font-size: 3vw;
+    }
+
+    .QuemSomos-info {
+        font-size: 2.5vw;
+        padding-top: 1vh;
+    }
+
+    /* SOBRE A TREINADORA */
+    .Sobre-Treinadora-container {
+        border-radius: 20px 20px 0px 0px;
+        height: 45vh;
+        padding: 0 2vw;
+        background-image: url('./images/sobrevendedorabg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .kellen-lateral {
+        position: absolute;
+        width: auto;
+        height: 90%;
+        bottom: 0;
+        left: 0;
+    }
+    
+    .treinadora-title {
+        font-size: 8vw;
+        padding-left: 10vw;
+    }
+
+    .treinadora-content {
+        font-size: 3vw;
+        font-weight: 400;
+        max-width: 70vw;
+        align-self: center;
+        display: flex;
+        justify-content: center;
+        padding: 2vh 0 0 18vw;
+    }
+    
+    .treinadora-card {
+        margin: 4vh 0 0 0;
+        border-radius: 16px;
+        width: 90%;
+        z-index: 99999;
+        padding: 8px;
+        justify-content: space-between;
+    }
+    
+    .treinadora-card-sections {
+        font-size: 2.5vw;
+        max-width: 33%;
+    }
+
+    .treinadora-card-sections img {
+        width: 6vw;  
+    }
+
+    /* DIFERENCIAIS */
+
+    .Diferenciais-container {
+        border-radius: 20px 20px 0px 0px;
+        height: auto;
+    }
+
+    .treinadora-cards {
+        gap: 1vh;
+    }
+    
+    .treinadora-cards-elipse {
+        width: 12.4vw;
+        height: 12.4vw;
+    }
+    
+    .card-image {
+        width: 6vw;
+    }
+    
+    .treinadora-cards-content {
+        width: 20vw;
+        font-size: 1.8vw;
+    }
 }
