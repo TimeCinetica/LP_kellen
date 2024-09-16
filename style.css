@@ -391,7 +391,6 @@ a {
     background-image: url('./images/oquedizembg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 40px 40px 0px 0px;
     margin-top: -6vh;
 }
 
@@ -412,6 +411,10 @@ a {
     padding: 6vh 2vw;
     margin: 0 2vw;
     height: 48vh;
+}
+
+.feedbacks-aspas {
+    width: 3vw;
 }
 
 .OQueDizem-content {
@@ -473,11 +476,11 @@ a {
 }
   
 #feedbacks-carousel-prev {
-    left: -2vw;
+    left: -8vw;
 }
   
 #feedbacks-carousel-next {
-    right: -2vw;
+    right: -8vw;
 }
 
 /* Empresas-carousel */

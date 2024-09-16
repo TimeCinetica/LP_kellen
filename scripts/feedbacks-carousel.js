@@ -35,5 +35,6 @@ feedbackscarouselPrev.addEventListener('click', () => {
 });
 
 feedbackscarouselNext.addEventListener('click', () => {
-  navigatefeedbacksCarousel('next');
+  navigatefeedbacksCarousel('next');  
 });
+

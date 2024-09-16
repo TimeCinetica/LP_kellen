@@ -38,6 +38,8 @@
     .Inicio-container {
         padding: 20vh 0 0 10vw;
         height: 60vh;
+        overflow: hidden;
+        position: relative;
     }
 
     .Inicio-content {
@@ -82,6 +84,8 @@
         padding: 2vh 0 12vh 0;
         margin-top: -26vh;
         border-radius: 20px 20px 0px 0px;
+        
+        position: relative;
     }
 
     .QuemSomos-cards {
@@ -202,5 +206,115 @@
     .treinadora-cards-content {
         width: 20vw;
         font-size: 1.8vw;
+    }
+
+    .Treinamentos-container {
+        border-radius: 20px 20px 0px 0px;
+        margin-top: -6vh;
+        padding: 12vh 8vw;
+        gap: 8vw;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    
+    .Treinamentos-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+        width: 80vw;
+    }
+
+    .Treinamentos-title {
+        font-size: 6vw;
+        width: 80vw;
+    }
+
+    .Treinamentos-text {
+        font-size: 3vw;
+        max-width: 80vw;
+    }
+
+    .Treinamentos-button {
+        font-size: 2.5vw;
+        border-radius: 16px;
+        padding: 2vh 4vw;
+        max-width: 42vw;
+        justify-self: start;
+    }
+    
+    .treinamentos-button-arrow {
+        width: 4vw;
+        margin-top: 0.1vh;
+    }
+
+    .Treinamentos-cards {
+        justify-content: center;
+        gap: 2vh;
+        width: 90vw;
+    }
+
+    .Treinamentos-card {
+        height: 12vh;
+        width: 26vw;
+        font-size: 3vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 16px;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    /* O QUE DIZEM */
+
+    .OQue-Dizem-container {
+        border-radius: 20px 20px 0px 0px;
+        padding: 6vh 4vw;
+    }
+
+    .OQue-Dizem-title {
+        font-size: 5vw;
+    }
+
+    .feedbacks-container {
+        border-radius: 8px;
+        padding: 3vh 2vw;
+        height: auto;
+    }
+    
+    .OQueDizem-content {
+        font-size: 3vw;
+        padding: 2vh 0 2vh 0;
+    }
+
+    .feedbacks-aspas {
+        width: 5vw;
+    }
+
+    .OQueDizem-pessoa {
+        padding: 0 4px;
+    }
+
+    .Nome {
+        font-size: 3vw;
+    }
+
+    .Funcao {
+        font-size: 2.8vw;
+    }
+
+    /* Empresas-carousel */
+    .empresas-carousel {
+        border-radius: 20px;
+        height: 10vh;
+    }
+
+    .prev-image {
+        width: 4.5vw;
+    }  
+    
+    .next-image {
+        width: 2vw;
     }
 }
