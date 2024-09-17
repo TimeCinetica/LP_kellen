@@ -317,4 +317,52 @@
     .next-image {
         width: 2vw;
     }
+
+    /* FOOTER */
+
+    .Footer {
+        border-radius: 20px 20px 0px 0px;
+        margin-top: -3vh;
+    }
+
+    .faleconosco-title {
+        font-size: 6vw;
+    }
+
+    .faleconosco-button {
+        border-radius: 12px;
+        height: 8vw;
+        width: 24vw;
+        font-size: 2.8vw;
+    }
+    
+    .footer-content {
+        padding: 4vh 2vw;
+    }
+
+    .footer-img {
+        width: 14vw;
+    }
+
+    .footer-section-text {
+        font-size: 3vw;
+        color: #C09F80;
+        max-width: 50vw;
+    }
+
+    .footer-social-medias  {
+        margin-top: 2vh;
+    }
+    
+    .footer-social-media-img  {
+        width: 6vw;
+    }
+
+    .footer-section-title {
+        font-size: 2.4vw;
+    }
+    
+    .footer-section-link {
+        font-size: 2.4vw;
+    }
 }

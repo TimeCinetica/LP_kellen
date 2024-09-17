@@ -581,7 +581,6 @@ a {
     justify-content: space-between;
     border-top: 1px solid #ffff;
     padding: 4vh 2vw;
-    font-size: 1.45vw;
 }
 
 .footer-section {
@@ -605,6 +604,10 @@ a {
     margin-top: 8vh;
     display: flex;
     gap: 1vw;
+}
+
+.footer-social-media-img {
+    width: 2vw;;
 }
 
 .footer-section-title {
