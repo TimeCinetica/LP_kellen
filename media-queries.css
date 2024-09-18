@@ -134,12 +134,8 @@
     /* SOBRE A TREINADORA */
     .Sobre-Treinadora-container {
         border-radius: 20px 20px 0px 0px;
-        height: 45vh;
+        height: 50vh;
         padding: 0 2vw;
-        background-image: url('./images/sobrevendedorabg.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
     }
 
     .kellen-lateral {

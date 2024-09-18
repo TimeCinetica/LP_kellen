@@ -76,6 +76,10 @@ a {
     justify-content: start;
     background-color: #121214;
     height: 80vh;
+    background-image: url('./images/iniciobg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .Inicio-content {
@@ -200,7 +204,7 @@ a {
     justify-content: center;
     padding: 0 4vw;
     margin-top: -6vh;
-    background-image: url('./images/sobrevendedorabg.png');
+    background-image: url('./images/sobrevendedorabg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -208,8 +212,7 @@ a {
 
 .kellen-lateral {
     position: absolute;
-    width: 15vw;
-    height: 90%;
+    width: 16vw;
     bottom: 0;
     left: 0;
 }
@@ -316,7 +319,8 @@ a {
     justify-content: space-around;
     align-items: center;
     background-color: #C09F80;
-    background-image: url('./images/treinamentobg.png');
+    background-image: url('./images/treinamentosbg.jpg');
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
