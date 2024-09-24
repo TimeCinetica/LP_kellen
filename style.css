@@ -213,6 +213,7 @@ a {
 .kellen-lateral {
     position: absolute;
     width: 16vw;
+    height: 100%;
     bottom: 0;
     left: 0;
 }
@@ -414,17 +415,19 @@ a {
     background-color: #F6F4F133;
     padding: 6vh 2vw;
     margin: 0 2vw;
-    height: 48vh;
+    min-height: 48vh;
+    overflow: auto;
 }
 
 .feedbacks-aspas {
     width: 3vw;
+    padding: 0 0 2vh 0;
 }
 
 .OQueDizem-content {
     color: #6F5440;
     font-size: 1.5625vw;
-    padding: 4vh 0 2vh 0;
+    padding: 0 0 2vh 0;
 }
 
 .OQueDizem-pessoa {
