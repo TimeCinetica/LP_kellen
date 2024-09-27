@@ -30,7 +30,16 @@ a {
 .Header {
     position: fixed;
     z-index: 22222;
-    margin-top: 1.875vw;
+    padding: 1.875vw 0 1vh 0;
+    transition: .7s;
+    width: 100%;
+}
+
+.scrolled {
+    background-color: #C09F80;
+    opacity: 0.9;
+    border-radius: 0 0 12px 12px;
+    transition: .7s;
 }
 
 .Header-container {
@@ -74,7 +83,6 @@ a {
     padding: 28vh 0 0 10vw;
     display: flex;
     justify-content: start;
-    background-color: #121214;
     height: 80vh;
     background-image: url('./images/iniciobg.jpg');
     background-position: top center;
