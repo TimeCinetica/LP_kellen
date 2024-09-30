@@ -14,7 +14,7 @@ function removeClassActive () {
     }
 }
 
-const header = document.querySelector('header');
+const header = document.querySelector('#PageHeader');
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > 0) {
