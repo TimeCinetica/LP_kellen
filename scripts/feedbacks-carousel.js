@@ -32,7 +32,7 @@ feedbackscarouselNext.addEventListener('click', () => {
 function autoRotateCarousel() {
   setInterval(() => {
     navigatefeedbacksCarousel('next');  
-  }, 4000);  
+  }, 7000);  
 }
 
 autoRotateCarousel();

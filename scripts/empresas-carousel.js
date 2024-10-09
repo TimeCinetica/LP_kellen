@@ -17,7 +17,7 @@ function navigateempresasCarousel(direction) {
   } else if (direction === 'next') {
     contadorEmpresas = (contadorEmpresas === empresascarouselItems.length - 1) ? 0 : contadorEmpresas + 1;
   }
-  
+
   empresascarouselItems[contadorEmpresas].classList.add('empresas-carousel-active');
 }
 
@@ -32,7 +32,7 @@ empresascarouselNext.addEventListener('click', () => {
 function autoRotateCarousel() {
   setInterval(() => {
     navigateempresasCarousel('next');  
-  }, 4000);  
+  }, 7000);  
 }
 
 autoRotateCarousel();
